@@ -19,7 +19,9 @@ h1 {
     height: 35px;
     text-align: center;
 }
-
+#row {
+    /*max-width: 900px; */
+}
 #box {
     background-color: grey;
     margin: 10px;
@@ -50,5 +52,8 @@ h1 {
 }
 /**** small devices only ****/
 @media (max-width: 767px){
-    
+    #row-element, #third-row-element {
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
