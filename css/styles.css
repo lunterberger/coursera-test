@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+h1 {
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 50px;
+}
+#subbox {
+    position: relative;
+    margin-left: auto; 
+    margin-right: 20px;
+    top: -2px;
+    padding-top: 5px;
+    
+    background-color: rgb(173, 68, 68);
+    border: 2px solid black;
+    width: 120px;
+    height: 35px;
+    text-align: center;
+}
+
+#box {
+    background-color: grey;
+    margin: 10px;
+    border: 2px solid black;
+    position: relative;
+}
+#textinbox {
+    margin: 10px;
+}
+/**** Large devices only ****/
+@media (min-width: 992px){
+    #row-element, #third-row-element {
+        float: left;
+        width: 33%;
+    }
+}
+/**** medium devices only ****/
+@media (min-width: 768px) and (max-width: 991px){
+    #row-element {
+        float: left;
+        width: 50%;
+    }
+    #third-row-element {
+        float: left;
+        width: 100%;
+        clear:both;
+    }  
+}
+/**** small devices only ****/
+@media (max-width: 767px){
+    
+}
